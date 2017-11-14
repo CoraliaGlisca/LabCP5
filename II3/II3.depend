@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510695720 source:c:\users\cora\desktop\lab5\ii3\main.c
+	<stdio.h>
+	<stdlib.h>
+
