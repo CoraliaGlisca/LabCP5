@@ -15,12 +15,18 @@ int main()
 
     r=x[1]-x[0];
 
-    for(i=2;i<=n;i++)
+    for(i=2;i<n;i++)
     {
         if(x[i]-x[i-1]!=r)
-            printf("The sequence is not a progression");
-        else
-            printf("The sequence is a progression with the ratio of %d", r);
+                k=0;
     }
+        if(k==0)
+            {
+                printf("The sequence is not a progression");
+            }
+         else
+           {
+               printf("The sequence is a progression with the ratio of %d", r);
+           }
 }
 
